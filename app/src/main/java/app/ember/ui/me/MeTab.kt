@@ -34,6 +34,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -171,14 +172,13 @@ private fun BadgeTile(b: Badge, unlocked: Boolean, progress: Float, modifier: Mo
         }
         Spacer(Modifier.height(8.dp))
         Text(
-            badgeTitle(b), style = UType.Small.copy(color = if (unlocked) U.c.ink else U.c.faint, fontSize = 12.sp),
-            textAlign = TextAlign.Center, maxLines = 2, overflow = TextOverflow.Ellipsis,
+            badgeTitle(b), style = UType.Small.copy(color = if (unlocked) U.c.ink else U.c.faint, fontSize = 12.sp, lineHeight = 15.sp),
+            textAlign = TextAlign.Center, minLines = 2, maxLines = 2, overflow = TextOverflow.Ellipsis,
         )
-        if (!unlocked && progress > 0f) {
-            Spacer(Modifier.height(6.dp))
-            Box(Modifier.width(44.dp).height(4.dp).clip(CircleShape).background(U.c.line)) {
-                Box(Modifier.fillMaxWidth(progress).height(4.dp).background(color))
-            }
+        // Every tile keeps room for the bar so the grid stays even.
+        Spacer(Modifier.height(6.dp))
+        Box(Modifier.width(44.dp).height(4.dp).clip(CircleShape).background(if (unlocked) Color.Transparent else U.c.line)) {
+            if (!unlocked) Box(Modifier.fillMaxWidth(progress).height(4.dp).background(color))
         }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tabs -->
-    <string name="tab_fast">Голод</string>
+    <string name="tab_fast">Таймер</string>
     <string name="tab_progress">Прогресс</string>
     <string name="tab_learn">Знания</string>
     <string name="tab_me">Профиль</string>
@@ -125,7 +125,7 @@
     <string name="plan_12_12_text">Двенадцать часов ночью. Самый простой вход: почти всё время приходится на сон.</string>
     <string name="plan_14_10">Лёгкий ритм</string>
     <string name="plan_14_10_text">Чуть более ранний ужин и поздний завтрак. Отличный первый план.</string>
-    <string name="plan_16_8">Классика Leangains</string>
+    <string name="plan_16_8">Классика</string>
     <string name="plan_16_8_text">Самый популярный план: без завтрака или ужина, еда в течение восьми часов.</string>
     <string name="plan_18_6">Фокус</string>
     <string name="plan_18_6_text">Два приёма пищи за шесть часов. Каждый день глубже в жиросжигание.</string>

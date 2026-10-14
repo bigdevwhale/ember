@@ -179,11 +179,15 @@ fun Ember(heat: Float, modifier: Modifier = Modifier, color: Color = U.c.accent)
         drawCircle(Brush.radialGradient(listOf(color.copy(alpha = 0.18f + 0.18f * heat), Color.Transparent), c, r), r, c)
         val h = r * (1.05f + 0.06f * wave)
         val w = r * 0.62f
+        val tip = c.x + w * (0.12f + 0.05f * wave)
         val flame = Path().apply {
-            moveTo(c.x, c.y - h)
-            cubicTo(c.x + w * 0.35f, c.y - h * 0.55f, c.x + w, c.y - h * 0.3f, c.x + w * 0.8f, c.y + r * 0.18f)
-            cubicTo(c.x + w * 0.6f, c.y + r * 0.42f, c.x - w * 0.6f, c.y + r * 0.42f, c.x - w * 0.8f, c.y + r * 0.18f)
-            cubicTo(c.x - w, c.y - h * 0.25f, c.x - w * 0.2f, c.y - h * 0.45f, c.x, c.y - h)
+            moveTo(tip, c.y - h)
+            cubicTo(c.x + w * 0.25f, c.y - h * 0.6f, c.x + w * 1.05f, c.y - h * 0.45f, c.x + w * 0.85f, c.y + r * 0.15f)
+            cubicTo(c.x + w * 0.7f, c.y + r * 0.45f, c.x - w * 0.7f, c.y + r * 0.45f, c.x - w * 0.85f, c.y + r * 0.15f)
+            // A smaller tongue of flame on the left.
+            cubicTo(c.x - w * 1.0f, c.y - h * 0.2f, c.x - w * 0.8f, c.y - h * 0.45f, c.x - w * 0.6f, c.y - h * (0.72f - 0.04f * wave))
+            cubicTo(c.x - w * 0.5f, c.y - h * 0.45f, c.x - w * 0.35f, c.y - h * 0.35f, c.x - w * 0.22f, c.y - h * 0.3f)
+            cubicTo(c.x - w * 0.25f, c.y - h * 0.65f, c.x - w * 0.05f, c.y - h * 0.85f, tip, c.y - h)
             close()
         }
         drawPath(flame, Brush.verticalGradient(listOf(gold, color), c.y - h, c.y + r * 0.4f))

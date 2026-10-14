@@ -57,10 +57,16 @@ jobs:
             echo "::warning::No signing secrets set — the APK is signed with the CI debug key."
           fi
 
+      - name: Release notes from CHANGELOG.md
+        run: |
+          awk -v v="${{ steps.v.outputs.name }}" 'index($0, "## [" v "]") == 1 {f=1; next} index($0, "## [") == 1 {f=0} f' CHANGELOG.md > dist/notes.md
+          [ -s dist/notes.md ] || echo "Ember ${{ steps.v.outputs.name }}" > dist/notes.md
+          cat dist/notes.md
+
       - name: Publish GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.v.outputs.name }}
           name: Ember v${{ steps.v.outputs.name }}
-          generate_release_notes: true
+          body_path: dist/notes.md
           files: dist/*.apk

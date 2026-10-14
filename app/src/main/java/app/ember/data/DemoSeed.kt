@@ -19,7 +19,7 @@ object DemoSeed {
                 onboarded = true, name = if (ru) "Аня" else "Anna", plan = "16_8", startAt = 20 * 60, reason = Reason.WEIGHT,
                 heightCm = 168, goalKg = 64.0, hungerWins = 7,
                 // Everything already earned counts as celebrated, so screenshots open without a dialog.
-                seenBadges = setOf("first", "h16", "h18", "h20", "h24", "s3", "s7", "s14", "f10", "f25", "t100", "t500", "w1", "l1", "l5", "water7", "c10", "hunger5"),
+                seenBadges = app.ember.domain.Badges.all.map { b -> b.id }.toSet(),
                 levelSeen = 99, challengeSeen = "",
             )
         }
