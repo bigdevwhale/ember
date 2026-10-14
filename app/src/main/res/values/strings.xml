@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Ember</string>
+
+    <!-- Tabs -->
+    <string name="tab_fast">Fast</string>
+    <string name="tab_progress">Progress</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_me">Me</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="ok">OK</string>
+    <string name="nice">Nice!</string>
+    <string name="off">Off</string>
+    <string name="stop">Stop</string>
+    <string name="less">Less</string>
+    <string name="more">More</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="current">Current</string>
+    <string name="goal">Goal</string>
+    <string name="height">Height</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="cm">cm</string>
+    <string name="unit_kg">%s kg</string>
+    <string name="unit_lb">%s lb</string>
+
+    <string name="greet_morning">Good morning</string>
+    <string name="greet_day">Good afternoon</string>
+    <string name="greet_evening">Good evening</string>
+    <string name="greet_night">Good night</string>
+
+    <!-- Durations -->
+    <string name="hours_short">%d h</string>
+    <string name="hours_short_f">%s h</string>
+    <string name="hours_plus">%d h+</string>
+    <string name="dur_m">%d min</string>
+    <string name="dur_h">%d h</string>
+    <string name="dur_hm">%1$d h %2$d min</string>
+    <string name="dur_dh">%1$d d %2$d h</string>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <!-- Fast -->
+    <string name="fasting">Fasting</string>
+    <string name="goal_reached">Goal reached</string>
+    <string name="left">%s left</string>
+    <string name="over_goal">+%s past the goal</string>
+    <string name="started">Started</string>
+    <string name="ended">Ended</string>
+    <string name="start_fast">Start fasting</string>
+    <string name="start_now">Start now</string>
+    <string name="started_earlier">Started earlier?</string>
+    <string name="end_fast">End fast</string>
+    <string name="eating_for">Eating window</string>
+    <string name="ready">Ready when you are</string>
+    <string name="next_fast_at">Next fast at %s</string>
+    <string name="goal_hours">Goal: %d hours</string>
+    <string name="stage_n">Stage %d</string>
+    <string name="next_stage_in">%1$s in %2$s</string>
+    <string name="hunger_sos">Hunger SOS</string>
+    <string name="check_in">Check in</string>
+    <string name="this_week">This week</string>
+    <string name="tip_of_day">Tip of the day</string>
+    <string name="last_fast">Last fast</string>
+    <string name="water">Water</string>
+    <string name="water_n">%1$d of %2$d glasses</string>
+    <string name="water_text">Water, tea and black coffee keep hunger quiet.</string>
+    <string name="water_done">Goal met. Well hydrated today.</string>
+    <string name="add_glass">Add a glass</string>
+
+    <string name="check_in_title">How do you feel?</string>
+    <string name="ci_hunger">Hunger</string>
+    <string name="ci_energy">Energy</string>
+    <string name="ci_mood">Mood</string>
+    <string name="ci_note">A note, if you like</string>
+
+    <!-- End and edit -->
+    <string name="end_short">Every hour counts. The goal was %s, and the next fast will come easier.</string>
+    <string name="stages_reached">Stages reached</string>
+    <string name="how_was_it">How was it?</string>
+    <string name="note_hint">How it went, what helped, what you ate after…</string>
+    <string name="save_fast">Save fast</string>
+    <string name="keep_fasting">Keep fasting</string>
+    <string name="discard_fast">Discard this fast</string>
+    <string name="discard_fast_text">It will be deleted, as if it never started. Useful when it was started by mistake.</string>
+    <string name="edit_fast">Edit fast</string>
+    <string name="add_fast">Add a past fast</string>
+    <string name="delete_fast">Delete fast?</string>
+    <string name="delete_fast_text">It will be removed from your history and stats.</string>
+    <string name="mood_1">Rough</string>
+    <string name="mood_2">Hard</string>
+    <string name="mood_3">Okay</string>
+    <string name="mood_4">Good</string>
+    <string name="mood_5">Great</string>
+
+    <!-- Plans -->
+    <string name="plans">Fasting plan</string>
+    <string name="plans_daily">Every day</string>
+    <string name="plans_long">Longer fasts</string>
+    <string name="plans_long_warning">For experienced fasters in good health. Drink water with a pinch of salt, and stop if you feel unwell.</string>
+    <string name="plan_applies_now">The new goal also applies to the fast in progress.</string>
+    <string name="plan_12_12">Gentle start</string>
+    <string name="plan_12_12_text">Twelve hours overnight. The easiest way in: mostly while you sleep.</string>
+    <string name="plan_14_10">Easy rhythm</string>
+    <string name="plan_14_10_text">A slightly earlier dinner and a later breakfast. A great first plan.</string>
+    <string name="plan_16_8">Leangains classic</string>
+    <string name="plan_16_8_text">The most popular plan: skip breakfast or dinner, eat within eight hours.</string>
+    <string name="plan_18_6">Focused</string>
+    <string name="plan_18_6_text">Two meals in six hours. Deeper into fat burning every day.</string>
+    <string name="plan_20_4">Warrior</string>
+    <string name="plan_20_4_text">One big meal and a snack within four hours.</string>
+    <string name="plan_omad">One meal a day</string>
+    <string name="plan_omad_text">A single, satisfying meal. For those who already fast with ease.</string>
+    <string name="plan_24h">Full day</string>
+    <string name="plan_24h_text">Dinner to dinner, once or twice a week.</string>
+    <string name="plan_36h">Monk fast</string>
+    <string name="plan_36h_text">A full day and two nights. Now and then, not every week.</string>
+    <string name="plan_48h">Two-day fast</string>
+    <string name="plan_48h_text">Deep and demanding. Plan a calm couple of days for it.</string>
+    <string name="plan_72h">Three-day fast</string>
+    <string name="plan_72h_text">A rare reset for experienced fasters. Best with a doctor’s okay.</string>
+    <string name="plan_custom">Your own</string>
+    <string name="plan_custom_text">Set the length that fits your life.</string>
+    <string name="difficulty_1">Beginner</string>
+    <string name="difficulty_2">Easy</string>
+    <string name="difficulty_3">Moderate</string>
+    <string name="difficulty_4">Hard</string>
+    <string name="difficulty_5">Expert</string>
+    <string name="schedule">Daily schedule</string>
+    <string name="schedule_start">The fast begins at</string>
+    <string name="schedule_window">You eat from %1$s to %2$s</string>
+
+    <!-- Hunger -->
+    <string name="hunger_title">Hunger comes in waves</string>
+    <string name="hunger_text">It rises, peaks and fades, usually within 15–20 minutes. Breathe with the circle and let this one pass.</string>
+    <string name="hunger_sos_text">Ride out a craving in 15 minutes</string>
+    <string name="ride_wave">Ride the wave</string>
+    <string name="breathe_with">Breathe in as it grows, out as it shrinks</string>
+    <string name="wave_passed">The wave has passed. You did it.</string>
+    <string name="hunger_wins">Hunger waves ridden out: %d</string>
+    <string name="hunger_helps">What helps right now</string>
+
+    <!-- Progress -->
+    <string name="streak">Streak</string>
+    <string name="best_streak">Best: %s</string>
+    <string name="streak_keep">Each day you reach your goal keeps the fire going.</string>
+    <string name="streak_start">Reach your fasting goal today to light your streak.</string>
+    <string name="hours_fasted">Hours fasted</string>
+    <string name="range_total">Total: %s</string>
+    <string name="stats">Stats</string>
+    <string name="stat_fasts">Fasts</string>
+    <string name="stat_total">Total time</string>
+    <string name="stat_longest">Longest</string>
+    <string name="stat_average">Average</string>
+    <string name="stat_success">Goals reached</string>
+    <string name="stat_hunger">Hunger waves beaten</string>
+    <string name="calendar">Calendar</string>
+    <string name="cal_goal">Goal reached</string>
+    <string name="cal_fasted">Fasted</string>
+    <string name="weight">Weight</string>
+    <string name="weight_empty">Track your weight</string>
+    <string name="weight_empty_text">Weigh in now and then, same time of day, and watch the trend.</string>
+    <string name="log_weight">Log weight</string>
+    <string name="weight_goal">Goal and height</string>
+    <string name="to_goal">%s to your goal</string>
+    <string name="goal_met">Goal weight reached</string>
+    <string name="recent_fasts">Recent fasts</string>
+    <string name="all_fasts">All fasts</string>
+    <string name="no_fasts">No finished fasts yet. Your first one will show up here.</string>
+    <string name="of_goal">/ %d h</string>
+
+    <!-- Learn -->
+    <string name="learn_sub">What happens in your body, and how to make fasting easy.</string>
+    <string name="stages">Fasting stages</string>
+    <string name="stages_intro">Every body is different and the timing is approximate, but roughly this is what happens as the hours pass.</string>
+    <string name="you_are_here">You are here</string>
+    <string name="what_helps">What helps</string>
+    <string name="articles">Articles</string>
+    <string name="min_read">%d min read</string>
+    <string name="read_next">Read next</string>
+    <string name="disclaimer">Ember shares general information, not medical advice. If you have a health condition, take medication, are pregnant or breastfeeding, or have had an eating disorder, talk to a doctor before fasting.</string>
+
+    <!-- Me: levels, badges, challenges -->
+    <string name="level_n">Level %d</string>
+    <string name="xp_total">%d XP</string>
+    <string name="xp_next">%1$d XP to level %2$d</string>
+    <string name="xp_how">One XP for every hour fasted, two more for each goal reached.</string>
+    <string name="level_up">Level up</string>
+    <string name="level_up_text">Your fire grows with every fast. Keep it burning.</string>
+    <string-array name="level_titles">
+        <item>Spark</item>
+        <item>Ember</item>
+        <item>Flicker</item>
+        <item>Flame</item>
+        <item>Torch</item>
+        <item>Hearth</item>
+        <item>Bonfire</item>
+        <item>Blaze</item>
+        <item>Beacon</item>
+        <item>Wildfire</item>
+        <item>Phoenix</item>
+        <item>Sun</item>
+    </string-array>
+    <string name="badges_n">Badges · %1$d of %2$d</string>
+    <string name="badge_unlocked">Badge unlocked</string>
+    <string name="badge_more">and %d more</string>
+    <string name="check_ins">Check-ins</string>
+    <string name="badge_first">First flame</string>
+    <string name="badge_first_text">Reach the goal of your first fast</string>
+    <string name="badge_h16">Sixteen</string>
+    <string name="badge_h18">Eighteen</string>
+    <string name="badge_h20">Warrior</string>
+    <string name="badge_h24">Full circle</string>
+    <string name="badge_h36">Monk</string>
+    <string name="badge_h48">Two suns</string>
+    <string name="badge_h72">Deep renewal</string>
+    <string name="badge_s3">Kindling</string>
+    <string name="badge_s7">A week aglow</string>
+    <string name="badge_s14">Steady fire</string>
+    <string name="badge_s30">Month of embers</string>
+    <string name="badge_s60">Unquenched</string>
+    <string name="badge_s100">Eternal flame</string>
+    <string name="badge_f10">Ten for ten</string>
+    <string name="badge_f25">Quarter hundred</string>
+    <string name="badge_f50">Half a hundred</string>
+    <string name="badge_f100">Centurion</string>
+    <string name="badge_f365">A year of fire</string>
+    <string name="badge_t100">100 hours</string>
+    <string name="badge_t500">500 hours</string>
+    <string name="badge_t1000">1000 hours</string>
+    <string name="badge_t2500">2500 hours</string>
+    <string name="badge_w1">On the scale</string>
+    <string name="badge_weigh_first">Log your weight for the first time</string>
+    <string name="badge_w30">Steady tracker</string>
+    <string name="badge_l1">First kilo</string>
+    <string name="badge_l5">Five lighter</string>
+    <string name="badge_l10">Ten lighter</string>
+    <string name="badge_water7">Hydrated</string>
+    <string name="badge_water30">Like a river</string>
+    <string name="badge_c10">Body listener</string>
+    <string name="badge_hunger5">Wave rider</string>
+    <string name="badge_hunger25">Calm sea</string>
+    <plurals name="badge_longest">
+        <item quantity="one">Fast for %d hour in one go</item>
+        <item quantity="other">Fast for %d hours in one go</item>
+    </plurals>
+    <plurals name="badge_streak">
+        <item quantity="one">Reach your goal %d day in a row</item>
+        <item quantity="other">Reach your goal %d days in a row</item>
+    </plurals>
+    <plurals name="badge_fasts">
+        <item quantity="one">Reach your fasting goal %d time</item>
+        <item quantity="other">Reach your fasting goal %d times</item>
+    </plurals>
+    <plurals name="badge_hours">
+        <item quantity="one">Fast %d hour in total</item>
+        <item quantity="other">Fast %d hours in total</item>
+    </plurals>
+    <plurals name="badge_weigh">
+        <item quantity="one">Log your weight %d time</item>
+        <item quantity="other">Log your weight %d times</item>
+    </plurals>
+    <plurals name="badge_lost">
+        <item quantity="one">Lose %d kg since your first weigh-in</item>
+        <item quantity="other">Lose %d kg since your first weigh-in</item>
+    </plurals>
+    <plurals name="badge_water">
+        <item quantity="one">Reach your water goal on %d day</item>
+        <item quantity="other">Reach your water goal on %d days</item>
+    </plurals>
+    <plurals name="badge_checkins">
+        <item quantity="one">Check in with your body %d time</item>
+        <item quantity="other">Check in with your body %d times</item>
+    </plurals>
+    <plurals name="badge_hunger">
+        <item quantity="one">Ride out %d hunger wave with Hunger SOS</item>
+        <item quantity="other">Ride out %d hunger waves with Hunger SOS</item>
+    </plurals>
+
+    <string name="challenge_done">Weekly challenge complete</string>
+    <string name="challenge_done_text">A new challenge arrives on Monday.</string>
+    <string name="ch_days">Reach your goal on %d days</string>
+    <string name="ch_days_text">Consistency beats intensity. Five good days make a habit.</string>
+    <string name="ch_hours">Fast %d hours this week</string>
+    <string name="ch_hours_text">Every hour counts toward it, including the fast in progress.</string>
+    <string name="ch_long">One fast of %d hours</string>
+    <string name="ch_long_text">Stretch a little further, just once this week.</string>
+    <string name="ch_water">Water goal on %d days</string>
+    <string name="ch_water_text">Water keeps hunger and headaches away.</string>
+    <string name="ch_checkins">Check in %d times</string>
+    <string name="ch_checkins_text">Notice hunger, energy and mood. Patterns appear quickly.</string>
+    <string name="ch_early">%1$d fasts started before %2$s</string>
+    <string name="ch_early_text">An early dinner works with your body clock and helps you sleep.</string>
+
+    <!-- Notifications and widget -->
+    <string name="channel_timer">Fasting timer</string>
+    <string name="channel_timer_desc">The ongoing notification with the time fasted</string>
+    <string name="channel_alerts">Fasting alerts</string>
+    <string name="channel_alerts_desc">Goal reached, new stages and schedule reminders</string>
+    <string name="notif_ongoing_title">Fasting · goal at %s</string>
+    <string name="notif_ongoing_reached">Fasting · goal reached</string>
+    <string name="notif_goal_title">Goal reached: %s</string>
+    <string name="notif_stage_title">New stage: %s</string>
+    <string name="notif_start_title">Time to begin your fast</string>
+    <string name="notif_start_text">Your %s fast starts now. Tap Start now once you’ve had your last bite.</string>
+    <string name="notif_window_title">Eating window closes in 30 minutes</string>
+    <string name="notif_window_text">A good time for a satisfying last meal, with protein and vegetables.</string>
+    <string name="widget_name">Fasting timer</string>
+    <string name="widget_desc">Your fast at a glance</string>
+    <string name="widget_fasting">Fasting</string>
+    <string name="widget_reached">Goal reached</string>
+    <string name="widget_eating">Since last fast</string>
+    <string name="widget_tap_start">Tap to start a fast</string>
+
+    <!-- Onboarding -->
+    <string name="ob_tagline">Intermittent fasting, made warm and simple</string>
+    <string name="ob_f1_title">A timer that explains</string>
+    <string name="ob_f1_text">See what your body is doing at every hour of a fast.</string>
+    <string name="ob_f2_title">Streaks, levels and badges</string>
+    <string name="ob_f2_text">Weekly challenges keep it fun, not a chore.</string>
+    <string name="ob_f3_title">Learn as you go</string>
+    <string name="ob_f3_text">Short, honest reads and a Hunger SOS for hard moments.</string>
+    <string name="ob_f4_title">Free and private</string>
+    <string name="ob_f4_text">No account, no ads, no subscription. Your data stays on the phone.</string>
+    <string name="ob_begin">Let’s begin</string>
+    <string name="ob_safety_title">Fasting isn’t for everyone</string>
+    <string name="ob_safety_text">Please talk to a doctor first if any of these apply to you:</string>
+    <string name="ob_safety_1">You are pregnant, breastfeeding or under 18</string>
+    <string name="ob_safety_2">You have had an eating disorder</string>
+    <string name="ob_safety_3">You have diabetes or take insulin or blood sugar medication</string>
+    <string name="ob_safety_4">You take medication that must be taken with food</string>
+    <string name="ob_safety_5">You are underweight or have a chronic condition</string>
+    <string name="ob_safety_stop">Stop a fast whenever you feel faint, very weak or unwell. Ember is a companion, not medical advice.</string>
+    <string name="ob_understand">I understand</string>
+    <string name="ob_reason_title">What brings you here?</string>
+    <string name="ob_reason_text">It helps us suggest a plan and keep you motivated.</string>
+    <string name="reason_weight">Lose weight</string>
+    <string name="reason_health">Better health</string>
+    <string name="reason_energy">More energy and focus</string>
+    <string name="reason_discipline">Self-discipline</string>
+    <string name="ob_exp_title">Have you fasted before?</string>
+    <string name="ob_exp_text">Start a little easier than you think you can. You can change the plan anytime.</string>
+    <string name="ob_exp_new">I’m new to fasting</string>
+    <string name="ob_exp_some">I’ve tried it a few times</string>
+    <string name="ob_exp_regular">I fast regularly</string>
+    <string name="ob_plan_pick">Your plan</string>
+    <string name="ob_suggested">Suggested</string>
+    <string name="ob_time_title">When does your fast begin?</string>
+    <string name="ob_time_text">Usually right after dinner. Ember will remind you, and you can always start a fast by hand.</string>
+    <string name="ob_fast_starts">Fast starts at</string>
+    <string name="ob_name">What should we call you?</string>
+    <string name="ob_name_hint">Your name (optional)</string>
+    <string name="ob_finish">Light the fire</string>
+
+    <!-- Settings -->
+    <string name="perm_title">Allow notifications</string>
+    <string name="perm_text">For the timer in the notification shade, goal alerts and reminders.</string>
+    <string name="set_name">Name</string>
+    <string name="set_reason">Why I fast</string>
+    <string name="set_notifications">Notifications</string>
+    <string name="set_ongoing">Timer in the notification shade</string>
+    <string name="set_ongoing_text">A quiet ongoing notification while you fast</string>
+    <string name="set_goal_alert">Goal reached</string>
+    <string name="set_goal_alert_text">Let me know when the fast hits its goal</string>
+    <string name="set_stage_alert">New stages</string>
+    <string name="set_stage_alert_text">A silent note when fat burning, ketosis and more begin</string>
+    <string name="set_start_alert">Time to fast</string>
+    <string name="set_start_alert_text">A nudge at the scheduled start, with a Start now button</string>
+    <string name="set_window_alert">Last meal soon</string>
+    <string name="set_window_alert_text">30 minutes before the eating window closes</string>
+    <string name="set_no_schedule">Schedule reminders need a daily start time: set it under Fasting plan.</string>
+    <string name="autostart_title">Notifications late or missing?</string>
+    <string name="autostart_text">On Xiaomi, Huawei and some other phones, allow Autostart and remove battery limits for Ember.</string>
+    <string name="set_water_goal">Daily water goal</string>
+    <string name="glasses_n">%d glasses</string>
+    <string name="set_units">Units</string>
+    <string name="units_metric">Kilograms</string>
+    <string name="units_imperial">Pounds</string>
+    <string name="set_feel">Feel</string>
+    <string name="set_haptics">Vibration</string>
+    <string name="set_haptics_text">A light tap when a fast starts</string>
+    <string name="set_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="backup">Backup</string>
+    <string name="backup_text">Everything is stored only on this phone. Export a backup file to keep it safe or move to a new phone.</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_import">Import</string>
+    <string name="backup_import_title">Replace all data?</string>
+    <string name="backup_import_text">Everything in the app will be replaced with the backup.</string>
+    <string name="backup_done">Backup saved</string>
+    <string name="backup_restored">Backup restored</string>
+    <string name="backup_failed">Something went wrong</string>
+    <string name="about">About</string>
+    <string name="about_text">Ember is free, with no ads, no account and no internet access. Made with care by Stillcraft.</string>
+    <string name="about_version">Version %s</string>
+</resources>

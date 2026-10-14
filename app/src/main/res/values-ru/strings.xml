@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs -->
+    <string name="tab_fast">Голод</string>
+    <string name="tab_progress">Прогресс</string>
+    <string name="tab_learn">Знания</string>
+    <string name="tab_me">Профиль</string>
+
+    <!-- Common -->
+    <string name="back">Назад</string>
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="ok">Хорошо</string>
+    <string name="nice">Здорово!</string>
+    <string name="off">Выкл.</string>
+    <string name="stop">Остановить</string>
+    <string name="less">Меньше</string>
+    <string name="more">Больше</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="settings">Настройки</string>
+    <string name="history">История</string>
+    <string name="current">Сейчас</string>
+    <string name="goal">Цель</string>
+    <string name="height">Рост</string>
+    <string name="kg">кг</string>
+    <string name="lb">фнт</string>
+    <string name="cm">см</string>
+    <string name="unit_kg">%s кг</string>
+    <string name="unit_lb">%s фнт</string>
+
+    <string name="greet_morning">Доброе утро</string>
+    <string name="greet_day">Добрый день</string>
+    <string name="greet_evening">Добрый вечер</string>
+    <string name="greet_night">Доброй ночи</string>
+
+    <!-- Durations -->
+    <string name="hours_short">%d ч</string>
+    <string name="hours_short_f">%s ч</string>
+    <string name="hours_plus">%d ч+</string>
+    <string name="dur_m">%d мин</string>
+    <string name="dur_h">%d ч</string>
+    <string name="dur_hm">%1$d ч %2$d мин</string>
+    <string name="dur_dh">%1$d д %2$d ч</string>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+
+    <!-- Fast -->
+    <string name="fasting">Голодание</string>
+    <string name="goal_reached">Цель достигнута</string>
+    <string name="left">Осталось %s</string>
+    <string name="over_goal">+%s сверх цели</string>
+    <string name="started">Начало</string>
+    <string name="ended">Конец</string>
+    <string name="start_fast">Начать голодание</string>
+    <string name="start_now">Начать сейчас</string>
+    <string name="started_earlier">Начали раньше?</string>
+    <string name="end_fast">Завершить</string>
+    <string name="eating_for">Окно питания</string>
+    <string name="ready">Можно начинать</string>
+    <string name="next_fast_at">Следующее голодание в %s</string>
+    <string name="goal_hours">Цель: %d ч</string>
+    <string name="stage_n">Этап %d</string>
+    <string name="next_stage_in">%1$s через %2$s</string>
+    <string name="hunger_sos">Голод SOS</string>
+    <string name="check_in">Самочувствие</string>
+    <string name="this_week">Эта неделя</string>
+    <string name="tip_of_day">Совет дня</string>
+    <string name="last_fast">Последнее голодание</string>
+    <string name="water">Вода</string>
+    <string name="water_n">%1$d из %2$d стаканов</string>
+    <string name="water_text">Вода, чай и чёрный кофе успокаивают голод.</string>
+    <string name="water_done">Цель выполнена. Отличный водный баланс.</string>
+    <string name="add_glass">Добавить стакан</string>
+
+    <string name="check_in_title">Как самочувствие?</string>
+    <string name="ci_hunger">Голод</string>
+    <string name="ci_energy">Энергия</string>
+    <string name="ci_mood">Настроение</string>
+    <string name="ci_note">Заметка, если хочется</string>
+
+    <!-- End and edit -->
+    <string name="end_short">Каждый час на счету. Цель была %s, и в следующий раз будет легче.</string>
+    <string name="stages_reached">Пройденные этапы</string>
+    <string name="how_was_it">Как прошло?</string>
+    <string name="note_hint">Как прошло, что помогло, чем завершилось голодание…</string>
+    <string name="save_fast">Сохранить</string>
+    <string name="keep_fasting">Продолжить голодание</string>
+    <string name="discard_fast">Отменить это голодание</string>
+    <string name="discard_fast_text">Оно будет удалено, как будто его не было. Подходит, если запуск был случайным.</string>
+    <string name="edit_fast">Голодание</string>
+    <string name="add_fast">Добавить прошлое голодание</string>
+    <string name="delete_fast">Удалить голодание?</string>
+    <string name="delete_fast_text">Оно исчезнет из истории и статистики.</string>
+    <string name="mood_1">Тяжело</string>
+    <string name="mood_2">Непросто</string>
+    <string name="mood_3">Нормально</string>
+    <string name="mood_4">Хорошо</string>
+    <string name="mood_5">Отлично</string>
+
+    <!-- Plans -->
+    <string name="plans">План голодания</string>
+    <string name="plans_daily">Каждый день</string>
+    <string name="plans_long">Долгие голодания</string>
+    <string name="plans_long_warning">Для опытных и здоровых. Пейте воду со щепоткой соли и прекращайте при плохом самочувствии.</string>
+    <string name="plan_applies_now">Новая цель применится и к текущему голоданию.</string>
+    <string name="plan_12_12">Мягкий старт</string>
+    <string name="plan_12_12_text">Двенадцать часов ночью. Самый простой вход: почти всё время приходится на сон.</string>
+    <string name="plan_14_10">Лёгкий ритм</string>
+    <string name="plan_14_10_text">Чуть более ранний ужин и поздний завтрак. Отличный первый план.</string>
+    <string name="plan_16_8">Классика Leangains</string>
+    <string name="plan_16_8_text">Самый популярный план: без завтрака или ужина, еда в течение восьми часов.</string>
+    <string name="plan_18_6">Фокус</string>
+    <string name="plan_18_6_text">Два приёма пищи за шесть часов. Каждый день глубже в жиросжигание.</string>
+    <string name="plan_20_4">Воин</string>
+    <string name="plan_20_4_text">Один большой приём пищи и перекус за четыре часа.</string>
+    <string name="plan_omad">Раз в день</string>
+    <string name="plan_omad_text">Одна сытная трапеза. Для тех, кому голодание уже даётся легко.</string>
+    <string name="plan_24h">Сутки</string>
+    <string name="plan_24h_text">От ужина до ужина, раз или два в неделю.</string>
+    <string name="plan_36h">Монашеский пост</string>
+    <string name="plan_36h_text">Целый день и две ночи. Изредка, не каждую неделю.</string>
+    <string name="plan_48h">Двое суток</string>
+    <string name="plan_48h_text">Глубоко и непросто. Выберите для него пару спокойных дней.</string>
+    <string name="plan_72h">Трое суток</string>
+    <string name="plan_72h_text">Редкая перезагрузка для опытных. Лучше после консультации с врачом.</string>
+    <string name="plan_custom">Свой план</string>
+    <string name="plan_custom_text">Длительность, которая подходит вашей жизни.</string>
+    <string name="difficulty_1">Новичок</string>
+    <string name="difficulty_2">Легко</string>
+    <string name="difficulty_3">Средне</string>
+    <string name="difficulty_4">Сложно</string>
+    <string name="difficulty_5">Для опытных</string>
+    <string name="schedule">Расписание</string>
+    <string name="schedule_start">Голодание начинается в</string>
+    <string name="schedule_window">Еда с %1$s до %2$s</string>
+
+    <!-- Hunger -->
+    <string name="hunger_title">Голод приходит волнами</string>
+    <string name="hunger_text">Он нарастает, достигает пика и стихает, обычно за 15–20 минут. Дышите вместе с кругом и пропустите эту волну.</string>
+    <string name="hunger_sos_text">Переждать приступ голода за 15 минут</string>
+    <string name="ride_wave">Переждать волну</string>
+    <string name="breathe_with">Вдох, пока круг растёт, выдох, пока сжимается</string>
+    <string name="wave_passed">Волна прошла. Получилось!</string>
+    <string name="hunger_wins">Пережитых волн голода: %d</string>
+    <string name="hunger_helps">Что поможет прямо сейчас</string>
+
+    <!-- Progress -->
+    <string name="streak">Серия</string>
+    <string name="best_streak">Рекорд: %s</string>
+    <string name="streak_keep">Каждый день с достигнутой целью поддерживает огонь.</string>
+    <string name="streak_start">Достигните цели сегодня, чтобы зажечь серию.</string>
+    <string name="hours_fasted">Часы голодания</string>
+    <string name="range_total">Всего: %s</string>
+    <string name="stats">Статистика</string>
+    <string name="stat_fasts">Голоданий</string>
+    <string name="stat_total">Всего времени</string>
+    <string name="stat_longest">Самое долгое</string>
+    <string name="stat_average">В среднем</string>
+    <string name="stat_success">Цель достигнута</string>
+    <string name="stat_hunger">Волн голода пережито</string>
+    <string name="calendar">Календарь</string>
+    <string name="cal_goal">Цель достигнута</string>
+    <string name="cal_fasted">Голодание</string>
+    <string name="weight">Вес</string>
+    <string name="weight_empty">Следите за весом</string>
+    <string name="weight_empty_text">Взвешивайтесь время от времени в одно и то же время суток и смотрите на тренд.</string>
+    <string name="log_weight">Записать вес</string>
+    <string name="weight_goal">Цель и рост</string>
+    <string name="to_goal">До цели %s</string>
+    <string name="goal_met">Цель по весу достигнута</string>
+    <string name="recent_fasts">Недавние голодания</string>
+    <string name="all_fasts">Все голодания</string>
+    <string name="no_fasts">Завершённых голоданий пока нет. Первое появится здесь.</string>
+    <string name="of_goal">/ %d ч</string>
+
+    <!-- Learn -->
+    <string name="learn_sub">Что происходит в теле и как сделать голодание лёгким.</string>
+    <string name="stages">Этапы голодания</string>
+    <string name="stages_intro">Каждый организм особенный, и сроки приблизительные, но в общих чертах с течением часов происходит вот что.</string>
+    <string name="you_are_here">Вы здесь</string>
+    <string name="what_helps">Что помогает</string>
+    <string name="articles">Статьи</string>
+    <string name="min_read">%d мин чтения</string>
+    <string name="read_next">Читать дальше</string>
+    <string name="disclaimer">Ember делится общей информацией и не заменяет врача. Если есть хронические заболевания, вы принимаете лекарства, беременны или кормите грудью, или было расстройство пищевого поведения, посоветуйтесь с врачом перед голоданием.</string>
+
+    <!-- Me: levels, badges, challenges -->
+    <string name="level_n">Уровень %d</string>
+    <string name="xp_total">%d XP</string>
+    <string name="xp_next">%1$d XP до уровня %2$d</string>
+    <string name="xp_how">Один XP за каждый час голодания и ещё два за каждую достигнутую цель.</string>
+    <string name="level_up">Новый уровень</string>
+    <string name="level_up_text">С каждым голоданием ваш огонь разгорается сильнее. Поддерживайте его.</string>
+    <string-array name="level_titles">
+        <item>Искра</item>
+        <item>Уголёк</item>
+        <item>Огонёк</item>
+        <item>Пламя</item>
+        <item>Факел</item>
+        <item>Очаг</item>
+        <item>Костёр</item>
+        <item>Зарево</item>
+        <item>Маяк</item>
+        <item>Пожар</item>
+        <item>Феникс</item>
+        <item>Солнце</item>
+    </string-array>
+    <string name="badges_n">Награды · %1$d из %2$d</string>
+    <string name="badge_unlocked">Новая награда</string>
+    <string name="badge_more">и ещё %d</string>
+    <string name="check_ins">Самочувствие</string>
+    <string name="badge_first">Первый огонь</string>
+    <string name="badge_first_text">Достигнуть цели первого голодания</string>
+    <string name="badge_h16">Шестнадцать</string>
+    <string name="badge_h18">Восемнадцать</string>
+    <string name="badge_h20">Воин</string>
+    <string name="badge_h24">Полный круг</string>
+    <string name="badge_h36">Монах</string>
+    <string name="badge_h48">Два солнца</string>
+    <string name="badge_h72">Глубокое обновление</string>
+    <string name="badge_s3">Растопка</string>
+    <string name="badge_s7">Неделя в огне</string>
+    <string name="badge_s14">Ровное пламя</string>
+    <string name="badge_s30">Месяц углей</string>
+    <string name="badge_s60">Неугасимый</string>
+    <string name="badge_s100">Вечный огонь</string>
+    <string name="badge_f10">Десятка</string>
+    <string name="badge_f25">Четверть сотни</string>
+    <string name="badge_f50">Полсотни</string>
+    <string name="badge_f100">Центурион</string>
+    <string name="badge_f365">Год огня</string>
+    <string name="badge_t100">100 часов</string>
+    <string name="badge_t500">500 часов</string>
+    <string name="badge_t1000">1000 часов</string>
+    <string name="badge_t2500">2500 часов</string>
+    <string name="badge_w1">На весах</string>
+    <string name="badge_weigh_first">Записать вес впервые</string>
+    <string name="badge_w30">Внимание к деталям</string>
+    <string name="badge_l1">Первый килограмм</string>
+    <string name="badge_l5">Минус пять</string>
+    <string name="badge_l10">Минус десять</string>
+    <string name="badge_water7">Водный баланс</string>
+    <string name="badge_water30">Как река</string>
+    <string name="badge_c10">Слушать тело</string>
+    <string name="badge_hunger5">Укротитель волн</string>
+    <string name="badge_hunger25">Штиль</string>
+    <plurals name="badge_longest">
+        <item quantity="one">Голодать %d час без перерыва</item>
+        <item quantity="few">Голодать %d часа без перерыва</item>
+        <item quantity="many">Голодать %d часов без перерыва</item>
+        <item quantity="other">Голодать %d часа без перерыва</item>
+    </plurals>
+    <plurals name="badge_streak">
+        <item quantity="one">Достигать цели %d день подряд</item>
+        <item quantity="few">Достигать цели %d дня подряд</item>
+        <item quantity="many">Достигать цели %d дней подряд</item>
+        <item quantity="other">Достигать цели %d дня подряд</item>
+    </plurals>
+    <plurals name="badge_fasts">
+        <item quantity="one">Достигнуть цели голодания %d раз</item>
+        <item quantity="few">Достигнуть цели голодания %d раза</item>
+        <item quantity="many">Достигнуть цели голодания %d раз</item>
+        <item quantity="other">Достигнуть цели голодания %d раза</item>
+    </plurals>
+    <plurals name="badge_hours">
+        <item quantity="one">Голодать %d час в сумме</item>
+        <item quantity="few">Голодать %d часа в сумме</item>
+        <item quantity="many">Голодать %d часов в сумме</item>
+        <item quantity="other">Голодать %d часа в сумме</item>
+    </plurals>
+    <plurals name="badge_weigh">
+        <item quantity="one">Записать вес %d раз</item>
+        <item quantity="few">Записать вес %d раза</item>
+        <item quantity="many">Записать вес %d раз</item>
+        <item quantity="other">Записать вес %d раза</item>
+    </plurals>
+    <plurals name="badge_lost">
+        <item quantity="one">Минус %d кг с первого взвешивания</item>
+        <item quantity="few">Минус %d кг с первого взвешивания</item>
+        <item quantity="many">Минус %d кг с первого взвешивания</item>
+        <item quantity="other">Минус %d кг с первого взвешивания</item>
+    </plurals>
+    <plurals name="badge_water">
+        <item quantity="one">Выполнить цель по воде %d день</item>
+        <item quantity="few">Выполнить цель по воде %d дня</item>
+        <item quantity="many">Выполнить цель по воде %d дней</item>
+        <item quantity="other">Выполнить цель по воде %d дня</item>
+    </plurals>
+    <plurals name="badge_checkins">
+        <item quantity="one">Отметить самочувствие %d раз</item>
+        <item quantity="few">Отметить самочувствие %d раза</item>
+        <item quantity="many">Отметить самочувствие %d раз</item>
+        <item quantity="other">Отметить самочувствие %d раза</item>
+    </plurals>
+    <plurals name="badge_hunger">
+        <item quantity="one">Переждать %d волну голода с «Голод SOS»</item>
+        <item quantity="few">Переждать %d волны голода с «Голод SOS»</item>
+        <item quantity="many">Переждать %d волн голода с «Голод SOS»</item>
+        <item quantity="other">Переждать %d волны голода с «Голод SOS»</item>
+    </plurals>
+
+    <string name="challenge_done">Испытание недели выполнено</string>
+    <string name="challenge_done_text">Новое испытание появится в понедельник.</string>
+    <string name="ch_days">Цель в %d дней недели</string>
+    <string name="ch_days_text">Постоянство важнее рекордов. Пять хороших дней складываются в привычку.</string>
+    <string name="ch_hours">%d часов голодания за неделю</string>
+    <string name="ch_hours_text">Засчитывается каждый час, включая текущее голодание.</string>
+    <string name="ch_long">Одно голодание на %d ч</string>
+    <string name="ch_long_text">Чуть дальше обычного, всего один раз за неделю.</string>
+    <string name="ch_water">Цель по воде %d дней</string>
+    <string name="ch_water_text">Вода отгоняет голод и головную боль.</string>
+    <string name="ch_checkins">Отметить самочувствие %d раза</string>
+    <string name="ch_checkins_text">Замечайте голод, энергию и настроение. Закономерности видны быстро.</string>
+    <string name="ch_early">%1$d голодания с началом до %2$s</string>
+    <string name="ch_early_text">Ранний ужин дружит с внутренними часами и помогает спать.</string>
+
+    <!-- Notifications and widget -->
+    <string name="channel_timer">Таймер голодания</string>
+    <string name="channel_timer_desc">Постоянное уведомление со временем голодания</string>
+    <string name="channel_alerts">Голодание</string>
+    <string name="channel_alerts_desc">Цель достигнута, новые этапы и напоминания по расписанию</string>
+    <string name="notif_ongoing_title">Голодание · цель в %s</string>
+    <string name="notif_ongoing_reached">Голодание · цель достигнута</string>
+    <string name="notif_goal_title">Цель достигнута: %s</string>
+    <string name="notif_stage_title">Новый этап: %s</string>
+    <string name="notif_start_title">Пора начинать голодание</string>
+    <string name="notif_start_text">План %s начинается сейчас. После последнего кусочка нажмите «Начать сейчас».</string>
+    <string name="notif_window_title">Окно питания закроется через 30 минут</string>
+    <string name="notif_window_text">Хорошее время для сытного последнего приёма пищи с белком и овощами.</string>
+    <string name="widget_name">Таймер голодания</string>
+    <string name="widget_desc">Голодание с одного взгляда</string>
+    <string name="widget_fasting">Голодание</string>
+    <string name="widget_reached">Цель достигнута</string>
+    <string name="widget_eating">После голодания</string>
+    <string name="widget_tap_start">Нажмите, чтобы начать</string>
+
+    <!-- Onboarding -->
+    <string name="ob_tagline">Интервальное голодание — тепло и просто</string>
+    <string name="ob_f1_title">Таймер, который объясняет</string>
+    <string name="ob_f1_text">Что происходит в теле на каждом часу голодания.</string>
+    <string name="ob_f2_title">Серии, уровни и награды</string>
+    <string name="ob_f2_text">Испытания недели делают процесс игрой, а не обязанностью.</string>
+    <string name="ob_f3_title">Знания по ходу дела</string>
+    <string name="ob_f3_text">Короткие честные статьи и «Голод SOS» для трудных минут.</string>
+    <string name="ob_f4_title">Бесплатно и приватно</string>
+    <string name="ob_f4_text">Без аккаунта, рекламы и подписки. Данные остаются в телефоне.</string>
+    <string name="ob_begin">Начнём</string>
+    <string name="ob_safety_title">Голодание подходит не всем</string>
+    <string name="ob_safety_text">Сначала посоветуйтесь с врачом, если что-то из этого про вас:</string>
+    <string name="ob_safety_1">Беременность, грудное вскармливание или возраст до 18 лет</string>
+    <string name="ob_safety_2">Расстройство пищевого поведения сейчас или в прошлом</string>
+    <string name="ob_safety_3">Диабет, инсулин или препараты, снижающие сахар</string>
+    <string name="ob_safety_4">Лекарства, которые нужно принимать с едой</string>
+    <string name="ob_safety_5">Недостаточный вес или хроническое заболевание</string>
+    <string name="ob_safety_stop">Прекращайте голодание при слабости, головокружении или плохом самочувствии. Ember — помощник, а не медицинская консультация.</string>
+    <string name="ob_understand">Понятно</string>
+    <string name="ob_reason_title">Что привело вас сюда?</string>
+    <string name="ob_reason_text">Это поможет подобрать план и поддерживать мотивацию.</string>
+    <string name="reason_weight">Снизить вес</string>
+    <string name="reason_health">Здоровье</string>
+    <string name="reason_energy">Энергия и ясность</string>
+    <string name="reason_discipline">Самодисциплина</string>
+    <string name="ob_exp_title">Есть опыт голодания?</string>
+    <string name="ob_exp_text">Начните чуть легче, чем кажется возможным. План можно сменить в любой момент.</string>
+    <string name="ob_exp_new">Пока нет</string>
+    <string name="ob_exp_some">Пробовали несколько раз</string>
+    <string name="ob_exp_regular">Голодаю регулярно</string>
+    <string name="ob_plan_pick">Ваш план</string>
+    <string name="ob_suggested">Рекомендуем</string>
+    <string name="ob_time_title">Когда начинается голодание?</string>
+    <string name="ob_time_text">Обычно сразу после ужина. Ember напомнит, а начать голодание вручную можно всегда.</string>
+    <string name="ob_fast_starts">Голодание начинается в</string>
+    <string name="ob_name">Как к вам обращаться?</string>
+    <string name="ob_name_hint">Имя (необязательно)</string>
+    <string name="ob_finish">Зажечь огонь</string>
+
+    <!-- Settings -->
+    <string name="perm_title">Разрешите уведомления</string>
+    <string name="perm_text">Для таймера в шторке, сообщений о цели и напоминаний.</string>
+    <string name="set_name">Имя</string>
+    <string name="set_reason">Зачем я голодаю</string>
+    <string name="set_notifications">Уведомления</string>
+    <string name="set_ongoing">Таймер в шторке</string>
+    <string name="set_ongoing_text">Тихое постоянное уведомление во время голодания</string>
+    <string name="set_goal_alert">Цель достигнута</string>
+    <string name="set_goal_alert_text">Сообщить, когда голодание дойдёт до цели</string>
+    <string name="set_stage_alert">Новые этапы</string>
+    <string name="set_stage_alert_text">Беззвучная заметка о начале жиросжигания, кетоза и других этапов</string>
+    <string name="set_start_alert">Пора голодать</string>
+    <string name="set_start_alert_text">Напоминание по расписанию с кнопкой «Начать сейчас»</string>
+    <string name="set_window_alert">Скоро последний приём пищи</string>
+    <string name="set_window_alert_text">За 30 минут до закрытия окна питания</string>
+    <string name="set_no_schedule">Напоминаниям по расписанию нужно время начала: задайте его в плане голодания.</string>
+    <string name="autostart_title">Уведомления опаздывают?</string>
+    <string name="autostart_text">На Xiaomi, Huawei и некоторых других телефонах разрешите Ember автозапуск и снимите ограничения батареи.</string>
+    <string name="set_water_goal">Цель по воде в день</string>
+    <string name="glasses_n">%d стаканов</string>
+    <string name="set_units">Единицы</string>
+    <string name="units_metric">Килограммы</string>
+    <string name="units_imperial">Фунты</string>
+    <string name="set_feel">Ощущения</string>
+    <string name="set_haptics">Вибрация</string>
+    <string name="set_haptics_text">Лёгкий отклик при начале голодания</string>
+    <string name="set_appearance">Оформление</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлое</string>
+    <string name="theme_dark">Тёмное</string>
+    <string name="language">Язык</string>
+    <string name="lang_system">Как в системе</string>
+    <string name="backup">Резервная копия</string>
+    <string name="backup_text">Всё хранится только на этом телефоне. Экспортируйте файл, чтобы сохранить данные или перенести их на новый телефон.</string>
+    <string name="backup_export">Экспорт</string>
+    <string name="backup_import">Импорт</string>
+    <string name="backup_import_title">Заменить все данные?</string>
+    <string name="backup_import_text">Всё в приложении будет заменено данными из файла.</string>
+    <string name="backup_done">Копия сохранена</string>
+    <string name="backup_restored">Данные восстановлены</string>
+    <string name="backup_failed">Что-то пошло не так</string>
+    <string name="about">О приложении</string>
+    <string name="about_text">Ember бесплатен: без рекламы, аккаунта и доступа в интернет. Сделано с заботой в Stillcraft.</string>
+    <string name="about_version">Версия %s</string>
+</resources>
