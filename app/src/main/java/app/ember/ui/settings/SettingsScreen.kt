@@ -51,6 +51,7 @@ import app.ember.data.Units
 import app.ember.notify.Alarms
 import app.ember.ui.Language
 import app.ember.ui.components.Chip
+import app.ember.ui.components.CommunityLinks
 import app.ember.ui.components.ConfirmDialog
 import app.ember.ui.components.SectionTitle
 import app.ember.ui.components.TopBar
@@ -194,6 +195,8 @@ fun SettingsScreen(settings: Settings, onBack: () -> Unit) {
                     }
                 }
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.about))
             UCard {
